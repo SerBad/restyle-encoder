@@ -12,7 +12,7 @@ import torch.nn.functional as F
 from utils import common, train_utils
 from criteria import id_loss, moco_loss
 from configs import data_configs
-from datasets.images_dataset import ImagesDataset
+from local_datasets.images_dataset import ImagesDataset
 from criteria.lpips.lpips import LPIPS
 from models.e4e import e4e
 from training.ranger import Ranger

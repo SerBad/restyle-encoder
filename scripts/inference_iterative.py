@@ -11,7 +11,7 @@ sys.path.append(".")
 sys.path.append("..")
 
 from configs import data_configs
-from datasets.inference_dataset import InferenceDataset
+from local_datasets.inference_dataset import InferenceDataset
 from options.test_options import TestOptions
 from models.psp import pSp
 from models.e4e import e4e
