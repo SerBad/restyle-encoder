@@ -1,5 +1,5 @@
 dataset_paths = {
-	'ffhq': '',
+	'ffhq': '/kaggle/input/zhoudualstyleganencode/DualStyleGAN/data/head2/images/train',
 	'celeba_test': '',
 
 	'cars_train': '',
@@ -16,18 +16,18 @@ dataset_paths = {
 }
 
 model_paths = {
-	'ir_se50': 'pretrained_models/model_ir_se50.pth',
-	'resnet34': 'pretrained_models/resnet34-333f7ec4.pth',
-	'stylegan_ffhq': 'pretrained_models/stylegan2-ffhq-config-f.pt',
-	'stylegan_cars': 'pretrained_models/stylegan2-car-config-f.pt',
-	'stylegan_church': 'pretrained_models/stylegan2-church-config-f.pt',
-	'stylegan_horse': 'pretrained_models/stylegan2-horse-config-f.pt',
-	'stylegan_ada_wild': 'pretrained_models/afhqwild.pt',
-	'stylegan_toonify': 'pretrained_models/ffhq_cartoon_blended.pt',
-	'shape_predictor': 'pretrained_models/shape_predictor_68_face_landmarks.dat',
-	'circular_face': 'pretrained_models/CurricularFace_Backbone.pth',
-	'mtcnn_pnet': 'pretrained_models/mtcnn/pnet.npy',
-	'mtcnn_rnet': 'pretrained_models/mtcnn/rnet.npy',
-	'mtcnn_onet': 'pretrained_models/mtcnn/onet.npy',
-	'moco': 'pretrained_models/moco_v2_800ep_pretrain.pt'
+	'ir_se50': '/kaggle/input/zhoudualstyleganencode/DualStyleGAN/checkpoint/model_ir_se50.pth',
+	'resnet34': '/kaggle/input/zhoudualstyleganencode/DualStyleGAN/checkpoint/resnet34-333f7ec4.pth',
+	'stylegan_ffhq': '/kaggle/input/zhoudualstyleganencode/DualStyleGAN/checkpoint/stylegan2-ffhq-config-f.pt',
+	'stylegan_cars': '/kaggle/input/zhoudualstyleganencode/DualStyleGAN/checkpoint/stylegan2-car-config-f.pt',
+	'stylegan_church': '/kaggle/input/zhoudualstyleganencode/DualStyleGAN/checkpoint/stylegan2-church-config-f.pt',
+	'stylegan_horse': '/kaggle/input/zhoudualstyleganencode/DualStyleGAN/checkpoint/stylegan2-horse-config-f.pt',
+	'stylegan_ada_wild': '/kaggle/input/zhoudualstyleganencode/DualStyleGAN/checkpoint/afhqwild.pt',
+	'stylegan_toonify': '/kaggle/input/zhoudualstyleganencode/DualStyleGAN/checkpoint/ffhq_cartoon_blended.pt',
+	'shape_predictor': '/kaggle/input/zhoudualstyleganencode/DualStyleGAN/checkpoint/shape_predictor_68_face_landmarks.dat',
+	'circular_face': '/kaggle/input/zhoudualstyleganencode/DualStyleGAN/checkpoint/CurricularFace_Backbone.pth',
+	'mtcnn_pnet': '/kaggle/input/zhoudualstyleganencode/DualStyleGAN/checkpoint/mtcnn/pnet.npy',
+	'mtcnn_rnet': '/kaggle/input/zhoudualstyleganencode/DualStyleGAN/checkpoint/mtcnn/rnet.npy',
+	'mtcnn_onet': '/kaggle/input/zhoudualstyleganencode/DualStyleGAN/checkpoint/mtcnn/onet.npy',
+	'moco': '/kaggle/input/zhoudualstyleganencode/DualStyleGAN/checkpoint/moco_v2_800ep_pretrain.pt'
 }
