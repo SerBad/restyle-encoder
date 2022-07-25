@@ -1,6 +1,6 @@
 dataset_paths = {
 	'ffhq': '/kaggle/input/zhoudualstyleganencode/DualStyleGAN/data/head2/images/train',
-	'celeba_test': '',
+	'celeba_test': './data_test',
 
 	'cars_train': '',
 	'cars_test': '',
